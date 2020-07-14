@@ -6,14 +6,11 @@
 </head>
 <body>
 
-	//Muestra el titulo de la parte de tittle de arriba
 	<h3 th:text="${titulo}"></h3>
 
-	//para mostrar en la vista y recuperar datos
 	<ul>
-		<li th:text="${username}"></li>
-		<li th:text="${password}"></li>
-		<li th:text="${email}"></li>
+		<li th:text="${usuario.username}"></li>
+		<li th:text="${usuario.email}"></li>
 	</ul>
 </body>
 </html>
